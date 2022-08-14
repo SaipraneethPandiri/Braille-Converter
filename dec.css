@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+        #b2 {
+            /* background-color: #EAE7DC; */
+            background-color:none;
+            
+            height: 100vh;
+            width: 100%;
+            margin-top: 50%;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1px !important;
+            text-align: center;
+            font-weight:bold;
+            color:white;
+            
+        }
+
+        #box {
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+
+        #b1 {
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            opacity:60%;
+
+        }
+
+        #b3 {
+            background-color: black;
+            height: 20px;
+            opacity:40%;
+        }
+
+        #float_left {
+            color: white;
+            float: left;
+        }
+
+        #float_right {
+            color: white;
+            float: right;
+        }
+
+        #float_center {
+            color: white;
+            text-align: center;
+        }
+
+        #btn {
+            height: 50px;
+            width: 250px;
+            background-color: black;
+            border: none;
+            font-family: 'Montserrat', sans-serif;
+            border-radius: 10px;
+            font-size: 20px;
+            color:white;
+            opacity:60%;
+        }
+
+        #btn:hover {
+            background-color: grey;
+            color:white;
+        }
+
+        #btn:active {
+            background-color: black;
+            box-shadow: 0 2px #666;
+            transform: translateY(4px);
+        }
+
+        p{
+            text-align:center;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            color:white;
+            font-weight:bold;
+        }
+        #box2 {
+            display: block;
+            height: 100vh;
+            width: 100%;
+            background-color:none;
+        }
+        #d2{
+            font-family: 'Montserrat', sans-serif;
+            float:center;
+            text-align:center;
+            margin:0 auto;
+            
+        }
+        #txtarea1{
+            border:solid white 5px;
+            resize: vertical;
+            background-color:black;
+            opacity:60%;
+            color:white;
+        }
+        #txtarea2{
+            border:solid black 5px;
+            resize:vertical;
+            opacity:60%;
+            color:black;
+        }
+        #box3 {
+            display: block;
+            height: 120vh;
+            width: 100%;
+            background-color:none;
+        }
+        
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1px !important;
+            text-align: center;
+            font-weight:bold;
+        }
+        h3{
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1px !important;
+            text-align: left;
+            font-weight:bold;
+            color:white;
+        }
+        #box3_2{
+            text-align:left;
+            padding-left:50px;
+        }
+        #Bchar{
+            border:solid black 3px;
+            font-size:50px;
+            opacity:80%;
+        }
+        #back{
+            background-color:white;
+            font-family: 'Montserrat';
+            color:black;
+            border:none;
+            margin-top:10px;
+            margin-left:40px;
+            padding-top:5px;
+            padding-bottom:5px;
+            padding-left:10px;
+            padding-right:10px;
+            border-radius:10px;
+            font-size:15px;
+            opacity:60%;
+        }
+
+        #back:hover{
+            background-color: grey;
+            color:white;
+        }
+        #back:active{
+            background-color: black;
+            box-shadow: 0 2px #666;
+            transform: translateY(4px);
+        }
+        #clr{
+            background-color:black;
+            font-family: 'Montserrat';
+            color:white;
+            padding:10px;
+            border:none;
+            border-radius:10px;
+            padding-left:20px; 
+            padding-right:20px; 
+            font-size:15px;
+            opacity:60%;
+        }
+        #clr:hover{
+            background-color: grey;
+            color:white;
+        }
+        #clr:active{
+            background-color: black;
+            box-shadow: 0 2px #666;
+            transform: translateY(4px);
+        }
+        #bb1{
+            background:url('braille1.jpg');
+            position:absolute;
+            width:100%;
+            /* background-repeat: no-repeat; */
+            background-size: 1550px 800px;
+            background-attachment: fixed;
+            background-position: center center;
+            opacity:95%
+        }
+
+        #formbox{
+            height:200px;
+            width:40%;
+            border: solid black 2px;
+        }
+        
